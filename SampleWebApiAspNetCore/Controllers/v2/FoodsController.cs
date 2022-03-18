@@ -10,6 +10,9 @@ namespace SampleWebApiAspNetCore.v2.Controllers
         [HttpGet]
         public ActionResult Get()
         {
+            var shivaji = null;
+            shivaji = 10;
+            
             return Ok("2.0");
         }
     }
